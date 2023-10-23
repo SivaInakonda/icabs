@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+.bg{
+    background-image: url("desktop-wallpaper-university-student-male-and-female-college-students.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

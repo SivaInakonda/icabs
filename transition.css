@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+.bg{
+    background-image:url("kids-1093758_1280.jpg"), url("desktop-wallpaper-university-student-male-and-female-college-students.jpg");
+    background-position:bottom, center;
+    background-repeat: no-repeat;
+    background-size: 200px, cover;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+div{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 50px;
+    transition-delay: 0.5s;
+    transition-duration: 1s;
+    background-image: url("kids-1093758_1280.jpg");
+    background-size: cover;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div:hover{
+    width: 100%;
+    height: 80vh;
+    transform: rotate(360deg);
+    background-image: url("kids-1093758_1280.jpg");
+}
+.float{
+    float: left;
+    display: table;
+}
+.content{
+    width: 100%;
+    height: 80vh;
+}
+.content:hover{
+    width: 100%;
+    height: 100vh;
+    transform: rotate(360deg);
+    background-image: url("desktop-wallpaper-university-student-male-and-female-college-students.jpg");
+}
